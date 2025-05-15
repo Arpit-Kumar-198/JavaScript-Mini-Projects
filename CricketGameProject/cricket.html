@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+    <div class="container">
+        <h1><big>Bat Ball Stump Game</big></h1>
+        <div class="butt-container">
+            <button class="butt" onclick="
+            let comChoice = getComChoice();
+            let userChoice = 'Bat';
+            getResult(userChoice,comChoice);
+
+           
+        ">🏏 Bat</button>
+    
+    
+    
+    
+        <button class="butt" onclick="
+        comChoice = getComChoice();
+        userChoice = 'Ball';
+        getResult(userChoice,comChoice);
+    
+        ">🥎 Ball</button>
+    
+    
+    
+        <button class="butt" onclick="
+        comChoice = getComChoice();
+        userChoice = 'Stump';
+       getResult(userChoice,comChoice);
+    
+        ">\|/ Stump</button>
+    <br>
+    <button class="butt" onclick="
+    localStorage.clear();
+    score.win = 0;
+    score.loss = 0;
+    score.tie = 0;
+    document.querySelector('#user-mov').innerText = ``;
+        document.querySelector('#com-mov').innerText = ``;
+        document.querySelector('#result').innerText = ``;
+    document.querySelector('#score').innerText = `Win:${0} , Loss:${0} , Tie:${0}`;
+    ">Reset Score</button>
+
+        </div>
+
+        <div class="show-case">
+            
+            <h3 id="user-mov"></h3>
+            <h3 id="com-mov"></h3>
+            <h3 id="result"></h3>
+            <h3 id="score"></h3>
+        </div>
+    </div>
+
+    <script src="cricket.js"></script>
+</body>
+</html>
