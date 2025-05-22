@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes-App</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', 'sans-serif';
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(135deg,#cf9aff,#95c0ff);
+            color: #fff;
+            padding: 4% 0 0 10%;
+        } 
+        .container h1{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 35px;
+        } 
+         .container h1 img{
+            width: 60px;
+        } 
+         .container button img{
+            width: 25px;
+            margin-right: 8px;
+        } 
+          .container button {
+             display: flex;
+            align-items: center;
+            outline: 0;
+            border: 0;
+            border-radius: 40px;
+            background: linear-gradient(#9418fd,#571094);
+            color: #fff;
+            padding: 15px 25px;
+            margin: 30px 0 20px;
+            cursor: pointer;
+        } 
+        .input-box{
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            min-height: 150px;
+            background: #fff;
+            color: #333;
+            padding: 20px;
+            margin: 20px 0;
+            outline: none;
+            border-radius: 5px;
+        }
+        .input-box img{
+           width: 25px;
+           position: absolute;
+           bottom: 15px;
+           right: 15px;
+           cursor: pointer;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><img src="images/notes.png"/> Notes</h1>
+        <button class="btn"><img src="images/edit.png"/> Create Notes</button>
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="input-box">
+                <img src="images/delete.png"/>
+            </p> -->
+        </div>
+    </div>
+    <script>
+        const notesContainer = document.querySelector('.notes-container');
+        const createButton = document.querySelector('.btn');
+        let notes = document.querySelectorAll('.input-box');
+        
+        function show(){
+            notesContainer.innerHTML = localStorage.getItem('notes');
+        }
+        show();
+        function updateStorage(){
+            localStorage.setItem("notes",notesContainer.innerHTML);
+        }
+        createButton.addEventListener('click',()=>{
+            let inputBox = document.createElement("p");
+            let img = document.createElement("img");
+            inputBox.className = 'input-box';
+            inputBox.setAttribute("contenteditable" , "true");
+            img.src = "images/delete.png";
+            notesContainer.appendChild(inputBox).appendChild(img);
+            updateStorage();
+        });
+        notesContainer.addEventListener('click',function (e){
+            if(e.target.tagName==='IMG'){
+                e.target.parentElement.remove();
+                updateStorage();
+            }
+            else if(e.target.tagName==='P'){
+                notes = document.querySelectorAll('.input-box');
+                notes.forEach(nt => {
+                    nt.onkeyup = function(){
+                        updateStorage();
+                    }
+                });
+            }
+        });
+
+        document.addEventListener('keydown',event=>{
+            if(event.key ==="Enter"){
+                document.execCommand("insertLineBreak");
+                event.preventDefault();
+            }
+        })
+    </script>
+</body>
+</html>
