@@ -38,4 +38,4 @@
                 document.execCommand("insertLineBreak");
                 event.preventDefault();
             }
-        })
+        });
