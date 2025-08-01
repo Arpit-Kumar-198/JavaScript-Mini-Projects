@@ -1,7 +1,9 @@
 # JavaScript Mini Projects
 
-Welcome to my collection of JavaScript mini-projects!  
-Each project is built using HTML, CSS, and JavaScript to improve frontend development skills.
+Welcome to my collection of JavaScript mini-projects!
+These projects are built using HTML, CSS, and JavaScript with the goal of learning and practicing core frontend concepts.
+
+⚠️ Note: The projects are not responsive and are best viewed on a desktop screen.
 
 🔗 **Live Website:** [View All Projects on GitHub Pages](https://thecode-hunter.github.io/JavaScript-Mini-Projects/)
 
