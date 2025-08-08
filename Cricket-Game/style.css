@@ -1,4 +1,4 @@
-body{
+body {
     text-align: center;
     height: 100vh;
     width: 100vw;
@@ -6,66 +6,119 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(131, 103, 130);
+    padding: 20px;
+    box-sizing: border-box;
 }
-.container{
-    height: 50%;
-    width: 50%;
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
     background-color: rgb(1, 15, 12);
     border-radius: 25px;
     border: 2px solid #fff;
-    box-shadow: 50px 50px 40px rgba(0,0,0,0.5);
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
-
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
-.butt-container{
-    height: 40%;
+
+.container h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.butt-container {
     width: 100%;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
 }
-.container h1{
-    color: #fff;
 
-}
-.butt{
+.butt {
     height: 50px;
-    width: 100px;
+    width: 120px;
     border-radius: 10px;
     background-color: rgba(19, 238, 12, 0.2);
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin: 5px 10px 5px 10px;
     text-align: center;
     border: 2px solid white;
     cursor: pointer;
-    
+    transition: all 0.3s ease;
 }
-.butt:hover{
+
+.butt:hover {
     transform: scale(1.1);
-    transition: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
     box-shadow: 0px 0px 20px #fff;
 }
 
-.show-case{
+.show-case {
     background-color: rgba(19, 238, 12, 0.2);
-    width: 50%;
+    width: 90%;
+    max-width: 400px;
     padding: 10px;
     border: 2px solid white;
     border-radius: 10px;
-    
+    margin-top: 20px;
 }
-.show-case:hover{
+
+.show-case:hover {
     box-shadow: 0px 0px 20px #fff;
-    
 }
-h3{
+
+h3 {
     color: white;
+    font-size: 1.2rem;
+}
+
+/* Responsive tweaks for smaller devices */
+@media (max-width: 600px) {
+    .container {
+        padding: 30px 15px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .butt {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .show-case {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .container h1 {
+        font-size: 1.3rem;
+    }
+
+    .butt {
+        width: 90px;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
 }
