@@ -3,7 +3,7 @@
 Welcome to my collection of JavaScript mini-projects!
 These projects are built using HTML, CSS, and JavaScript with the goal of learning and practicing core frontend concepts.
 
-⚠️ Note: The projects are not responsive and are best viewed on a desktop screen.
+All projects are fully responsive and can be viewed comfortably on any device — desktop, tablet, or mobile.
 
 ⚠️ These projects are made for learning purposes only.
 
@@ -48,6 +48,7 @@ Feel free to connect or share feedback:
 💼 GitHub: @TheCode-Hunter
 
 💼 LinkedIn: https://www.linkedin.com/in/arpit-kumar-569361296/
+
 
 
 
