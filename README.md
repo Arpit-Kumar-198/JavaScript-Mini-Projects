@@ -7,7 +7,7 @@ All projects are fully responsive and can be viewed comfortably on any device �
 
 ⚠️ These projects are made for learning purposes only.
 
-🔗 **Live Website:** [View All Projects on GitHub Pages](https://thecode-hunter.github.io/JavaScript-Mini-Projects/)
+🔗 **Live Website:** [View All Projects on GitHub Pages](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/)
 
 ---
 
@@ -15,13 +15,13 @@ All projects are fully responsive and can be viewed comfortably on any device �
 
 Click on any project below to open it directly:
 
-- 🔢 [Calculator](https://thecode-hunter.github.io/JavaScript-Mini-Projects/Calculator/)
-- 🏏 [Cricket Game](https://thecode-hunter.github.io/JavaScript-Mini-Projects/Cricket-Game/)
-- 💸 [Expense Tracker](https://thecode-hunter.github.io/JavaScript-Mini-Projects/Expense-Tracker/)
-- 🔐 [Password Generator](https://thecode-hunter.github.io/JavaScript-Mini-Projects/Password-Generator/)
-- ✊✋✌️ [Rock Paper Scissor](https://thecode-hunter.github.io/JavaScript-Mini-Projects/Rock-Paper-Scissor/)
-- ❌⭕ [Tic Tac Toe](https://thecode-hunter.github.io/JavaScript-Mini-Projects/Tik-Tak-Toe/)
-- ✅ [To-Do App](https://thecode-hunter.github.io/JavaScript-Mini-Projects/To-Do-App/)
+- 🔢 [Calculator](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/Calculator/)
+- 🏏 [Cricket Game](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/Cricket-Game/)
+- 💸 [Expense Tracker](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/Expense-Tracker/)
+- 🔐 [Password Generator](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/Password-Generator/)
+- ✊✋✌️ [Rock Paper Scissor](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/Rock-Paper-Scissor/)
+- ❌⭕ [Tic Tac Toe](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/Tik-Tak-Toe/)
+- ✅ [To-Do App](https://arpit-kumar-198.github.io/JavaScript-Mini-Projects/To-Do-App/)
 
 
 ---
@@ -31,7 +31,7 @@ Click on any project below to open it directly:
 If you want to run any project on your computer:
 
 1. Clone the repository:
-   git clone https://github.com/TheCode-Hunter/JavaScript-Mini-Projects.git
+   git clone https://github.com/Arpit-Kumar-198/JavaScript-Mini-Projects.git
    
 2. Open the project folder you want (e.g., Calculator).
    
@@ -45,9 +45,10 @@ JavaScript
 ## 📬 Contact
 Feel free to connect or share feedback:
 
-💼 GitHub: @TheCode-Hunter
+💼 GitHub: @Arpit-Kumar-198
 
 💼 LinkedIn: https://www.linkedin.com/in/arpit-kumar-569361296/
+
 
 
 
