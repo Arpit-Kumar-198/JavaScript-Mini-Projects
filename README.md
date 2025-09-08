@@ -38,16 +38,14 @@ If you want to run any project on your computer:
 3. Double-click on the index.html file to open it in your browser.
 
 ## 📦 Tech Stack:
-HTML
-CSS
-JavaScript
+HTML, CSS, JavaScript
 
 ## 📬 Contact
-Feel free to connect or share feedback:
 
-💼 GitHub: @Arpit-Kumar-198
+- **Author:** Arpit Kumar  
+- **E-mail:** [arpitkumar19842@gmail.com](mailto:arpitkumar19842@gmail.com)  
+- **LinkedIn:** [Arpit Kumar](https://www.linkedin.com/in/arpit-kumar-569361296/) 
 
-💼 LinkedIn: https://www.linkedin.com/in/arpit-kumar-569361296/
 
 
 
