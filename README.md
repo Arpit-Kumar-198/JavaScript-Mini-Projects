@@ -26,16 +26,6 @@ Click on any project below to open it directly:
 
 ---
 
-## 🧾 How to Run Locally
-
-If you want to run any project on your computer:
-
-1. Clone the repository:
-   git clone https://github.com/Arpit-Kumar-198/JavaScript-Mini-Projects.git
-   
-2. Open the project folder you want (e.g., Calculator).
-   
-3. Double-click on the index.html file to open it in your browser.
 
 ## 📦 Tech Stack:
 HTML, CSS, JavaScript
@@ -45,6 +35,7 @@ HTML, CSS, JavaScript
 - **Author:** Arpit Kumar  
 - **E-mail:** [arpitkumar19842@gmail.com](mailto:arpitkumar19842@gmail.com)  
 - **LinkedIn:** [Arpit Kumar](https://www.linkedin.com/in/arpit-fullstack-dev/) 
+
 
 
 
